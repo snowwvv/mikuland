@@ -1,5 +1,5 @@
 .chapka{
-    background-color: #1974d2;
+  background-image: url(art/hatsune-miku-vocaloid-microphone-miv4t-wallpaper-preview.jpg);
    }
    
    .Mikuland{
@@ -37,8 +37,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
-    padding: 20px;
-  }
+   display: flex;
+    max-width: 50%;
+}
   
   .gallery-item {
     position: relative;
